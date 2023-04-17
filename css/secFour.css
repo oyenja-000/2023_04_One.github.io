@@ -1,0 +1,138 @@
+#secFour{
+    background: url('./../img/secFour.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65pc;
+}
+
+#secFour .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 19pc 0 0 0;
+    color: #716c53;
+}
+
+.right-secFour img {
+    width: 30vw;
+}
+
+.left-secFour h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+}
+
+.left-secFour p {
+    width: 50vw;
+    font-size: 30px;
+    margin: 10% 0;
+}
+
+.left-secFour a {
+    background: #716c53;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 25px 130px;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.6s;
+}
+.left-secFour a:hover {
+    background: #333;
+}
+
+@media (max-width:1263px) {
+    #secFour{
+        height: 70vh;
+    }
+    #secFour .container {
+        padding: 15vh 0;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .left-secFour {
+        margin-left: 5vw;
+
+    }
+    .left-secFour h1 {
+        font-size: 40px;
+    }
+    .left-secFour p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .left-secFour a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
+@media (max-width:768px) {
+    #secFour{
+        height: 30pc;
+    }
+    #secFour .container {
+        justify-content: flex-start;
+        padding: 50px 0;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .right-secFour img {
+        width: 48vw;
+    }
+    .left-secFour {
+        margin-left: 20px;
+
+    }
+    .left-secFour h1 {
+        font-size: 40px;
+    }
+    .left-secFour p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .left-secFour a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
+@media (max-width:600px) {
+    #secFour{
+        height: 75vh;
+    }
+    #secFour .container {
+        flex-direction: column;
+        padding: 70px 0 0 0;
+        margin-left: 20px;
+        margin-right: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .left-secFour {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .left-secFour h1 {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .left-secFour p {
+        font-size: 18px;
+        margin: 20px 0 45px 0;
+    }
+    .right-secFour img {
+        margin-top: 50px;
+    }
+    
+}

@@ -1,0 +1,134 @@
+#secThree{
+    background: url('./../img/secThree.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65pc;
+}
+
+#secThree .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    padding: 95px 0;
+}
+
+.left-secThree img {
+    width: 30vw;
+}
+
+.right-secThree h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+}
+
+.right-secThree p {
+    width: 50vw;
+    font-size: 30px;
+    margin: 10% 0;
+}
+
+.right-secThree a {
+    background: #716c53;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 25px 130px;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.6s;
+}
+.right-secThree a:hover {
+    background: #333;
+}
+
+@media (max-width:1263px) {
+    #secThree{
+        height: 70vh;
+    }
+    #secThree .container {
+        padding: 15vh 0;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .right-secThree {
+        margin-left: 5vw;
+
+    }
+    .right-secThree h1 {
+        font-size: 40px;
+    }
+    .right-secThree p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .right-secThree a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
+@media (max-width:768px) {
+    #secThree{
+        height: 30pc;
+    }
+    #secThree .container {
+        justify-content: flex-start;
+        padding: 50px 0;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .left-secThree img {
+        width: 48vw;
+    }
+    .right-secThree {
+        margin-left: 20px;
+    }
+    .right-secThree h1 {
+        font-size: 40px;
+    }
+    .right-secThree p {
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 0 50px 0;
+    }
+    .right-secThree a {
+        font-weight: 800;
+        padding: 25px 11.5vw;
+        font-size: 18px;
+        transition: 0.6s;
+    }
+}
+
+@media (max-width:600px) {
+    #secThree{
+        height: 75vh;
+    }
+    #secThree .container {
+        flex-direction: column;
+        padding: 40px 0;
+        margin-left: 20px;
+        margin-right: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .right-secThree {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .right-secThree h1 {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .right-secThree p {
+        font-size: 18px;
+        margin: 20px 0 45px 0;
+    }
+    
+}

@@ -1,0 +1,98 @@
+#secEight{
+    background: url('./../img/secEight.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 58pc;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#secEight .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 222px 0;
+}
+
+#secEight .container b{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+#secEight .container p {
+    font-size: 30px;
+    width: 50vw;
+    padding: 77px 0;
+}
+
+input.mail {
+    padding: 15px 33px;
+    font-size: 20px;
+    width: 35vw;
+}
+
+.mailBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button.submitMail {
+    width: 169px;
+    padding: 15px 0;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-text {
+    font-family: Nunito !important;
+    padding: 77px 0 0 0 !important; 
+    font-size: 20px !important; 
+    color: #505960 !important;
+}
+
+p.p{
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+@media (max-width:768px) {
+    #secEight{
+        height: 30pc;
+    }
+    #secEight .container {
+        padding: 8vh 0;
+    }
+    #secEight .container b{
+        font-size: 4vh;
+    }
+    #secEight .container p {
+        font-size: 2vh;
+        width: 70vw;
+        padding: 2vh 0;
+    }
+    .contact-text {
+        padding: 20px 0 0 0 !important; 
+        font-size: 16px !important; 
+    }
+    input.mail {
+        padding: 15px 3vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    
+    button.submitMail {
+        width: 22vw;
+        padding: 15px 0;
+        background: #000;
+        color: #fff;
+        font-size: 4vw;
+        cursor: pointer;
+    }
+}

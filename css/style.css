@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    transition: all linear 0.2s;
+}
+
+body {
+    max-width: 100%;
+}
+
+::selection{
+    color: #eee2b5;
+    background: #716c53;
+}

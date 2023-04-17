@@ -1,0 +1,117 @@
+#secOne .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+}
+
+#secOne .container .right-secOne{
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 33pc;
+    justify-content: flex-start;
+}
+
+#secOne .container .right-secOne h2 {
+    font-size: 450%;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+#secOne .container .right-secOne p {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 60px 0 45px 0px;
+}
+
+#secOne .container .right-secOne a {
+    text-decoration: none;
+    background: #716c53;
+    color: #fff;
+    width: fit-content;
+    padding: 20px 70px;
+    font-size: 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+#secOne .container .right-secOne a:hover{
+    background: #333;
+}
+
+
+@media (max-width:853px) {
+    #secOne .container .right-secOne h2 {
+        font-size: 350%;
+        letter-spacing: 9px;
+    }
+    #secOne .container .right-secOne p {
+        font-size: 130%;
+        letter-spacing: 3px;
+        margin: 20px 20px 15px 0px;
+    }
+    #secOne .container .right-secOne a {
+        padding: 20px 8vw;
+        font-size: 20px;
+    }
+    .left-secOne img{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    /* #secOne .container {
+        height: 100vh;
+    } */
+    .left-secOne img{
+        width: 80%;
+    }
+    #secOne .container .right-secOne{
+        max-width: 50%;
+    }
+    #secOne .container .right-secOne h2 {
+        font-size: 3pc;
+    }
+    #secOne .container .right-secOne p {
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin: 20px 0 20px 0px;
+        width: 90%
+    }
+}
+
+@media (max-width:733px) {
+    #secOne .container {
+        padding: 2vh 0;
+    }
+    
+    #secOne .container .right-secOne h2 {
+        font-size: 250% ;
+    }
+    #secOne .container .right-secOne p {
+        font-size: 100% ;
+    }
+    #secOne .container .right-secOne a {
+        padding: 15px 8vw ;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    #secOne .container .right-secOne h2 {
+        font-size: 6vw ;
+    }
+    #secOne .container .right-secOne p {
+        font-size: 3vw ;
+        margin: 1vh 0 1.1vh 0px;
+    }
+
+}

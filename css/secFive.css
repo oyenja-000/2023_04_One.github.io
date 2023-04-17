@@ -1,0 +1,136 @@
+#secFive{
+    background: url('./../img/secFive.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    height: 58pc;
+}
+
+#secFive .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.top-secFive {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 95%;
+    margin: 185px auto 114px;
+}
+
+.top-secFive h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.top-secFive p {
+    text-align: center;
+    font-size: 17px;
+}
+.bottom-secFive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.brdr-secFive {
+    font-weight: 800;
+}
+
+@media (max-width:768px) {
+    #secFive{
+        height: 35pc;
+    }
+    .top-secFive {
+        width: 95%;
+        margin: 50px auto 85px;
+    }
+    .top-secFive h1 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    
+    .top-secFive p {
+        font-size: 17px;
+    }
+    .bottom-secFive {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    #secFive{
+        height: 50vh;
+    }
+    .top-secFive {
+        margin: 5vh auto 3.5vh;
+    }
+    .top-secFive h1 {
+        font-size: 150%;
+        margin-bottom: 2vh;
+    }
+    .top-secFive p {
+        font-size: 3vw;
+        max-width: 70%;
+    }
+    .bottom-secFive {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:500px) {
+    #secFive{
+        height: 45vh;
+    }
+}
+
+
+@media (min-width:2000px) {
+    #secFive{
+        background-position-y: -10vh;
+    }
+    .top-secFive h1 {
+        font-size: 4vh;
+        margin-bottom: 2vh;
+    }
+    .top-secFive p {
+        font-size: 2.5vh;
+
+    }
+}
+
+@media (min-width:2200px) {
+    #secFive{
+        background-position-y: -15vh;
+    }
+}
+
+@media (min-width:2314px) {
+    #secFive{
+        background-position-y: -20vh;
+    }
+}
+
+@media (min-width:2440px) {
+    #secFive{
+        background-position-y: -25vh;
+    }
+}
+
+@media (min-width:2560px) {
+    #secFive{
+        background-position-y: -30vh;
+    }
+}
+

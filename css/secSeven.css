@@ -1,0 +1,46 @@
+#secSeven{
+    background: url('./../img/secSeven.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 58pc;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#secSeven .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 375px 0 0 0;
+}
+
+#secSeven .container p {
+    width: 90%;
+    font-size: 55px;
+    text-align: center;
+}
+
+#secSeven .container h1 {
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+    #secSeven{
+        height: 30pc;
+    }
+    #secSeven .container {
+        padding: 180px 0 0 0;
+    }
+    #secSeven .container p {
+        font-size: 25px;
+    }
+    #secSeven .container h1 {
+        margin: 25px 0 0 0;
+        font-size: 25px;
+    }
+    
+}

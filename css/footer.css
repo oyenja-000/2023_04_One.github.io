@@ -1,0 +1,144 @@
+footer{
+    background-color: #222222;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 45px 0;
+    height: 60vh;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12vh;
+}
+
+.icons {
+    display: flex;
+}
+
+.left-footer {
+    width: 33%;
+    font-size: 2.5vh;
+    margin: 0 50px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 66%;
+}
+
+.left, .mid, .right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: left;
+}
+
+.right-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 2vh;
+    text-transform: capitalize;
+}
+
+.right-footer b {
+    margin: 40px 0;
+    text-transform: capitalize;
+    font-size: 2vh;
+}
+.icons a {
+    background: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin: 35px 10px;
+}
+
+.icons a i {
+    margin: 9px 11px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width:768px) {
+    .left-footer {
+        width: 25%;
+        font-size: 2vw;
+        margin: 0 20px;
+    }
+    .left-footer img {
+        margin:10px;
+        width: 150px;
+    }
+    .left-footer p {
+        margin-left: 10px;
+    }
+    .right-footer {
+        width: 66%;
+    }
+    .right-footer a {
+        margin: 5px 0;
+        font-size: 2vw;
+    }
+    .right-footer b {
+        margin: 0px 0 1vh 0;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .icons a {
+        background: #fff;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        padding: 5px 5px;
+        margin: 10px 10px;
+    }
+    .icons a i {
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width:600px) {
+    footer{
+        padding: 45px 0;
+        height: fit-content;
+    }
+    footer .container {
+        margin-top: 4vh;
+        flex-direction: column;
+    }
+    .left-footer {
+        width: 80%;
+        font-size: 22px;
+        margin: 0 0;
+    }
+    .left-footer p {
+        margin-left: 1.8vw;
+    }
+    .left-footer img {
+        margin:10px;
+        width: 50vw;
+    }
+    /* .left-footer .icons {
+        margin-bottom: 3vh;
+    } */
+    .right-footer {
+        flex-direction: column;
+        width: 80%;
+    }
+    .right-footer b {
+        margin: 4vh 0 1vh 0;
+        font-size: 3vh;
+    }
+    .right-footer a {
+        margin: 5px 0;
+        font-size: 2vh;
+    }
+}
